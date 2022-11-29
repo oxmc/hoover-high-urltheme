@@ -19,6 +19,6 @@ function hhs_add_css_styles() {
 	$url = yourls_plugin_url( __DIR__ );
 	echo <<<HEAD
 			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-			<title>Hoover High School | link shortener</title>
+			<script>window.document.title = "Hoover High School | link shortener"</script>
 HEAD;
 }
